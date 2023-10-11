@@ -3,15 +3,15 @@
 }
 
 body {
-  font-family: Arial;
+  font-family: sans-serif;
   margin: 0;
 }
 
 header {
   padding: 40px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  background:#00458b;
+  color: white;
 }
 
 /* 
@@ -20,7 +20,7 @@ The flex container becomes flexible
 */
 nav {
   display: flex;
-  background-color: #d8a47f;
+  background-color: #99ddff;
 }
 
 nav a {
@@ -41,16 +41,35 @@ main {
 
 aside {
   flex: 1;
-  background-color: #b9c6ae;
+  background-color:#3fd2c7;
   padding: 80px;
   text-align: center;
+}
+
+aside img{
+  border: solid;
+  border-width: 3px;
+  border-radius: 180px;
+  border-color: #99ddff;
 }
 
 footer {
   padding: 20px;
   text-align: center;
-  background: #13293d;
+  background: #00458b;
   color: #fff;
+  font-size: medium;
+}
+
+footer a{
+  color: white;
+  
+}
+
+footer div:nth-child(1) {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: sans-serif;
 }
 
 /* 
@@ -74,10 +93,12 @@ We are making the product card not growable, not shrinkable, and with an initial
 */
 .card {
   border-style: solid;
-  border-width: 1px;
+  border-width: 3px;
   border-radius: 10px;
   padding: 10px;
   flex: 0 0 400px;
+  margin: 20px;
+  border-color: #99ddff;
 }
 
 .card header {
