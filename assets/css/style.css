@@ -30,6 +30,11 @@ nav a {
   text-align: center;
 }
 
+nav a:hover{
+  color: blue;
+  font-weight: bold;
+}
+
 /* 
 What is the flex-wrap property?
 It specifies whether the flex items should wrap or not 
@@ -99,6 +104,10 @@ We are making the product card not growable, not shrinkable, and with an initial
   flex: 0 0 400px;
   margin: 20px;
   border-color: #99ddff;
+}
+
+.card:hover{
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 .card header {
